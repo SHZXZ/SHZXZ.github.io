@@ -1,0 +1,239 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://www.hunliji.com/p/frontend/creation-platform/app-preview-wedding-card/dist/index.html?cardId=ODE1MzU3OTVmaXJlX2Nsb3Vk",
+            "path": "index.html",
+            "saved": true,
+            "size": 5106,
+            "children": [
+                {
+                    "url": "https://qnm.hunliji.com/o_1fsino5du14q73jg1uf91vei1bo49.gif",
+                    "path": "img/o_1fsino5du14q73jg1uf91vei1bo49.gif",
+                    "saved": true,
+                    "size": 51270
+                },
+                {
+                    "url": "https://res.wx.qq.com/open/js/jweixin-1.4.0.js",
+                    "path": "js/jweixin-1.4.0.js",
+                    "saved": true,
+                    "size": 12788
+                },
+                {
+                    "url": "https://qnc.hunliji.com/app-preview-wedding-card/js/runtime-main.ed6e5eb2.js",
+                    "path": "js/runtime-main.ed6e5eb2.js",
+                    "saved": true,
+                    "size": 3683
+                },
+                {
+                    "url": "https://qnc.hunliji.com/app-preview-wedding-card/js/868.e62459fa.js",
+                    "path": "js/868.e62459fa.js",
+                    "saved": true,
+                    "size": 1745243
+                },
+                {
+                    "url": "https://qnc.hunliji.com/app-preview-wedding-card/js/main.32fcaaa1.js",
+                    "path": "js/main.32fcaaa1.js",
+                    "saved": true,
+                    "size": 280776
+                },
+                {
+                    "url": "https://at.alicdn.com/t/font_641156_1mkebuj10yz.css",
+                    "saved": false
+                },
+                {
+                    "url": "https://at.alicdn.com/t/font_2678660_n7339ws632.css",
+                    "saved": false
+                },
+                {
+                    "url": "https://qnc.hunliji.com/animate3.7.0.css",
+                    "path": "css/animate3.7.0.css",
+                    "saved": true,
+                    "size": 57997
+                },
+                {
+                    "url": "https://qnc.hunliji.com/app-preview-wedding-card/public/preload/preload-1.0.0.css",
+                    "path": "css/preload-1.0.0.css",
+                    "saved": true,
+                    "size": 863
+                },
+                {
+                    "url": "https://qnc.hunliji.com/app-preview-wedding-card/css/style.187ef0fd.css",
+                    "path": "css/style.187ef0fd.css",
+                    "saved": true,
+                    "size": 63539,
+                    "children": [
+                        {
+                            "url": "data-uri",
+                            "path": "data-uri/woff2/woff2_fb950.woff2",
+                            "saved": true,
+                            "size": 24700
+                        },
+                        {
+                            "url": "https://at.alicdn.com/t/font_2553510_iv4v8nulyz.woff?t=1649083952952",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://at.alicdn.com/t/font_2553510_iv4v8nulyz.ttf?t=1649083952952",
+                            "saved": false
+                        },
+                        {
+                            "url": "data-uri",
+                            "path": "data-uri/woff/woff_45c75.woff",
+                            "saved": true,
+                            "size": 1632
+                        }
+                    ]
+                },
+                {
+                    "url": "https://qnc.hunliji.com/app-preview-wedding-card/css/style.ad4b4a17.css",
+                    "path": "css/style.ad4b4a17.css",
+                    "saved": true,
+                    "size": 127070,
+                    "children": [
+                        {
+                            "url": "https://qnm.hunliji.com/o_1g5o9mh551ibi1ra9ue81givo5j.png",
+                            "path": "img/o_1g5o9mh551ibi1ra9ue81givo5j.png",
+                            "saved": true,
+                            "size": 31842
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1ernll7ajadsa4du9g2tqo989.png",
+                            "path": "img/o_1ernll7ajadsa4du9g2tqo989.png",
+                            "saved": true,
+                            "size": 925
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/FmkuqMfEFX0Nw-O1lDZ3CKJc6d1X",
+                            "path": "img/FmkuqMfEFX0Nw-O1lDZ3CKJc6d1X.png",
+                            "saved": true,
+                            "size": 4295
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/FirzvwdkVDj6OAltl1KyVX9Bk4rQ",
+                            "path": "img/FirzvwdkVDj6OAltl1KyVX9Bk4rQ.png",
+                            "saved": true,
+                            "size": 2262
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1g62l97k01i571thtgfj1uul8m9j.png",
+                            "path": "img/o_1g62l97k01i571thtgfj1uul8m9j.png",
+                            "saved": true,
+                            "size": 19276
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/FipDnMr6M9xXOfl8T-NQXP3icxNd",
+                            "path": "img/FipDnMr6M9xXOfl8T-NQXP3icxNd.svg",
+                            "saved": true,
+                            "size": 265
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/FqKwxtxPFntm8iqvqXnD2HLRzqaS",
+                            "path": "img/FqKwxtxPFntm8iqvqXnD2HLRzqaS.png",
+                            "saved": true,
+                            "size": 6039
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1g5vsks8g1dkqpeo5v31gg2md0j.png",
+                            "path": "img/o_1g5vsks8g1dkqpeo5v31gg2md0j.png",
+                            "saved": true,
+                            "size": 15116
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1g601asdr1coqc65bn1efj1ooit.png",
+                            "path": "img/o_1g601asdr1coqc65bn1efj1ooit.png",
+                            "saved": true,
+                            "size": 17099
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1dje9fljcsfh1r981psd1bmd1hc6t.png",
+                            "path": "img/o_1dje9fljcsfh1r981psd1bmd1hc6t.png",
+                            "saved": true,
+                            "size": 362
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1g6pjajoam1r1t6r1dcinlb16gvb.png",
+                            "path": "img/o_1g6pjajoam1r1t6r1dcinlb16gvb.png",
+                            "saved": true,
+                            "size": 11017
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1g6pjajoa10kcum9leldpimeva.png",
+                            "path": "img/o_1g6pjajoa10kcum9leldpimeva.png",
+                            "saved": true,
+                            "size": 9203
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1g6aa38s01eu41uqc7f1jku3rte.png",
+                            "path": "img/o_1g6aa38s01eu41uqc7f1jku3rte.png",
+                            "saved": true,
+                            "size": 22986
+                        },
+                        {
+                            "url": "https://qnm.hunliji.com/o_1g6aa33t29l619lbc601f5jkhp9.png",
+                            "path": "img/o_1g6aa33t29l619lbc601f5jkhp9.png",
+                            "saved": true,
+                            "size": 183910
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "alias": "www-hunliji-com-w92iurm",
+    "info": {
+        "remark": [],
+        "title": "婚礼纪-电子请帖",
+        "domain": "www.hunliji.com",
+        "origin": "https://www.hunliji.com",
+        "ip": "8.136.130.116",
+        "main": "index.html",
+        "url": "https://www.hunliji.com/p/frontend/creation-platform/app-preview-wedding-card/dist/index.html?cardId=ODE1MzU3OTVmaXJlX2Nsb3Vk",
+        "totalSize": "2.7 MB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://www.hunliji.com/p/frontend/creation-platform/app-preview-wedding-card/dist/index.html?cardId=ODE1MzU3OTVmaXJlX2Nsb3Vk#/&unionId=407bb8a2819732485c953862d04cf981&openid=o7420wUi6udkQtN9ODWYUXyxk4dw",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "https://www.hunliji.com/p/frontend/creation-platform/app-preview-wedding-card/dist/index.html?cardId=ODE1MzU3OTVmaXJlX2Nsb3Vk",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "date": "Sun, 19 Feb 2023 09:42:31 GMT",
+                "content-type": "text/html; charset=utf-8",
+                "content-length": "5312",
+                "connection": "close",
+                "vary": "Accept-Encoding, Accept-Encoding, Accept-Encoding, Accept-Encoding, Accept-Encoding",
+                "last-modified": "Thu, 05 Jan 2023 12:45:14 GMT",
+                "etag": "\"63b6c65a-14c0\"",
+                "x-backend-server": "php4",
+                "accept-ranges": "bytes"
+            }
+        },
+        "time": {
+            "start": "2023-02-19T09:42:31.491Z",
+            "end": "2023-02-19T09:42:37.568Z"
+        }
+    },
+    "options": {
+        "url": "https://www.hunliji.com/p/frontend/creation-platform/app-preview-wedding-card/dist/index.html?cardId=ODE1MzU3OTVmaXJlX2Nsb3Vk#/&unionId=407bb8a2819732485c953862d04cf981&openid=o7420wUi6udkQtN9ODWYUXyxk4dw",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}

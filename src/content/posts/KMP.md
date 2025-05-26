@@ -1,10 +1,11 @@
 ---
-UID: 20250406192811 
-aliases: 
-tags: 
-source: 
-cssclass: 
-created: 2025-04-06
+title: kmp算法
+date: 2025-05-026
+lastMod: 
+summary: 介绍一下kmp算法
+category: 算法
+tags: [技能学习, MP类算法]
+sticky: 1
 ---
 # KMP 算法
 ## 定义示范数据集

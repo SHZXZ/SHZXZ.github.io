@@ -1,0 +1,77 @@
+# 工作流程的名称，将显示在 GitHub Actions 标签页
+name: Deploy Astro site to GitHub Pages
+
+# 定义触发此工作流程的事件
+on:
+  # 当有代码推送到 `main` 分支时触发
+  push:
+    branches:
+      - main  # 请确保这是您仓库的默认分支 (也可能是 master)
+  
+  # 允许从 GitHub Actions 标签页手动触发此工作流程
+  workflow_dispatch:
+
+# 为 GITHUB_TOKEN 设置工作流程所需的权限
+permissions:
+  contents: read      # 允许读取仓库内容 (检出代码)
+  pages: write      # 允许写入 GitHub Pages 相关内容
+  id-token: write   # 允许使用 OIDC token 进行身份验证 (现代 GitHub Pages 部署需要)
+
+# 定义工作流程中的作业 (jobs)
+jobs:
+  # 第一个作业：构建您的 Astro 网站
+  build:
+    name: Build Astro Site # 作业的名称
+    runs-on: ubuntu-latest  # 指定作业在 GitHub 托管的最新 Ubuntu Linux 运行器上执行
+    steps: # 作业执行的一系列步骤
+      - name: Checkout repository # 步骤1：检出代码
+        uses: actions/checkout@v4 # 使用官方的 actions/checkout@v4 来获取仓库代码
+
+      - name: Set up Node.js # 步骤2：设置 Node.js 环境
+        uses: actions/setup-node@v4 # 使用官方的 actions/setup-node@v4
+        with:
+          node-version: '20' # 指定 Node.js 版本 (Astro 需要 Node.js, 20.x 是一个较新的 LTS 版本)
+
+      # Gyoza 主题 (lxchapu/astro-gyoza) 使用 pnpm 作为包管理器
+      - name: Set up pnpm # 步骤3：设置 pnpm
+        uses: pnpm/action-setup@v3 # 使用 pnpm/action-setup 来安装 pnpm
+        with:
+          version: 8 # 指定 pnpm 版本 (可以根据主题的 pnpm-lock.yaml 或 .npmrc 文件确认，版本 8 是常用版本)
+
+      - name: Install dependencies # 步骤4：安装项目依赖
+        run: pnpm install # 执行 pnpm install 命令
+
+      - name: Build Astro site # 步骤5：构建 Astro 站点
+        # 执行在 package.json 中定义的 "build" 脚本 (通常是 `astro build`)
+        # Astro 默认会将构建产物输出到 ./dist 目录
+        run: pnpm run build 
+
+      - name: Upload Pages artifact # 步骤6：上传构建产物
+        # 将构建好的静态网站文件 (./dist 目录) 打包并上传，以便部署作业可以使用
+        uses: actions/upload-pages-artifact@v3 
+        with:
+          # 指定要上传的构建产物路径 (Astro 项目的默认输出目录)
+          path: ./dist
+
+  # 第二个作业：将构建好的网站部署到 GitHub Pages
+  deploy:
+    name: Deploy to GitHub Pages # 作业的名称
+    # 此作业依赖于 `build` 作业成功完成
+    needs: build 
+    
+    # 为部署作业单独设置权限 (与全局权限一致，确保部署所需)
+    permissions:
+      pages: write      
+      id-token: write   
+      
+    # 定义部署环境，这会关联到 GitHub Pages 的设置
+    environment:
+      name: github-pages # 指定部署环境的名称
+      url: ${{ steps.deployment.outputs.page_url }} # 将部署后的网站 URL 设置为一个输出变量，方便在 Actions 摘要中查看
+      
+    runs-on: ubuntu-latest # 指定作业在 GitHub 托管的最新 Ubuntu Linux 运行器上执行
+    steps: # 作业执行的一系列步骤
+      - name: Deploy to GitHub Pages # 步骤1：执行部署
+        id: deployment # 给这个步骤一个 ID，方便引用其输出
+        uses: actions/deploy-pages@v4 # 使用官方的 actions/deploy-pages@v4 Action 部署
+                                    # 此 Action 会自动从之前 `upload-pages-artifact` 上传的构件进行部署

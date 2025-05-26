@@ -1,7 +1,7 @@
 ---
 title: kmp算法
-date: 2025-05-026
-lastMod: 
+date: 2025-05-26
+lastMod: 2025-05-26
 summary: 介绍一下kmp算法
 category: 算法
 tags: [技能学习, MP类算法]

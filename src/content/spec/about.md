@@ -16,9 +16,9 @@ comments: false
 
 于 17 年相识，22 年订婚，23 年结婚💍，今年已经是我们在一起的`第 8 个年头`啦~💒
 
-![桂林旅游照片L.jpg](https://gitee.com/li_yu_long_666/obsidian-images/raw/master/桂林l.jpg)
+![桂林旅游照片L](https://gitee.com/li_yu_long_666/obsidian-images/raw/master/桂林l.jpg/ '桂林遇龙河')
 
-![桂林旅游照片Z.jpg](https://gitee.com/li_yu_long_666/obsidian-images/raw/master/桂林z.jpg)
+![桂林旅游照片Z](https://gitee.com/li_yu_long_666/obsidian-images/raw/master/桂林z.jpg/ '桂林阳朔')
 
 ## 致谢
 

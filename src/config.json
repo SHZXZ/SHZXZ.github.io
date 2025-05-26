@@ -1,43 +1,43 @@
 {
   "site": {
     "url": "https://SHZXZ.github.io",
-    "title": "Gyoza",
-    "description": "这是一个使用 Astro 和 React 开发的博客主题。",
-    "keywords": "Gyoza,blog,Astro,theme,lxchapu,博客主题",
+    "title": "lylzxz的博客",
+    "description": "记录生活、分享技术、探索未知、撒点狗粮",
+    "keywords": "lylzxz, blog, 技术博客, 生活记录",
     "lang": "zh-CN",
     "favicon": "/favicon.ico",
     "appleTouchIcon": "/apple-touch-icon.png"
   },
   "author": {
-    "name": "lxchapu",
-    "twitterId": "@lxchapu",
+    "name": "lyl",
+    "twitterId": "@lyl",
     "avatar": "https://s2.loli.net/2024/04/30/ozsnuS5Ihf3xMBG.webp"
   },
   "hero": {
-    "name": "Gyoza",
-    "bio": "A static blog template build with Astro and React.",
-    "description": "Clean, Cute, Fast.",
+    "name": "lylzxz",
+    "bio": "And, when you want something, all the universe conspires in helping you to achieve it.",
+    "description": "just do it!",
     "socials": [
       {
         "name": "Github",
         "icon": "icon-github",
-        "url": "https://github.com/lxchapu/astro-gyoza",
+        "url": "https://github.com/SHZXZ/SHZXZ.github.io",
         "color": "rgb(24, 23, 23)"
       },
       {
         "name": "X",
         "icon": "icon-x",
-        "url": "https://twitter.com/lxchapu",
+        "url": "https://x.com/SH9277390497666",
         "color": "rgb(36, 46, 54)"
       },
       {
         "name": "Email",
         "icon": "icon-mail",
-        "url": "mailto:lxchapu@outlook.com",
+        "url": "1454285348@qq.com",
         "color": "rgb(212, 70, 56)"
       }
     ],
-    "yiyan": "当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。"
+    "yiyan": "世间所有的相遇，都是久别重逢。"
   },
   "color": {
     "accent": [

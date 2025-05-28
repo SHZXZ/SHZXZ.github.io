@@ -98,7 +98,7 @@
     "startTime": "2025-05-26T00:00:00.000Z"
   },
   "waline": {
-    "serverURL": "https://waline.lxchapu.com"
+    "serverURL": "https://my-waline-backend.vercel.app"
   },
   "sponsor": {
     "wechat": "https://object.lxchapu.com/bed%2F2024%2F0507_6e3e8f73df2d4e6d.webp"
